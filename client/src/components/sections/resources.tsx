@@ -12,7 +12,7 @@ export default function Resources() {
       icon: Presentation,
       title: "Presentation Slides",
       description: "Conference presentation materials",
-      href: "#"
+      href: "https://www.canva.com/design/DAGuocGB234/zHEuGhKfBqLY0zcqecZ5TQ/view?utm_content=DAGuocGB234&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hd30108184c"
     },
     {
       icon: Code,
@@ -39,6 +39,8 @@ export default function Resources() {
               <a
                 key={index}
                 href={resource.href}
+                target={resource.title === "Presentation Slides" ? "_blank" : undefined}
+                rel={resource.title === "Presentation Slides" ? "noopener noreferrer" : undefined}
                 className="bg-white bg-opacity-20 hover:bg-opacity-30 transition-colors p-6 rounded-xl block backdrop-blur-sm"
               >
                 <Icon className="mx-auto text-3xl mb-3" size={48} />
