@@ -1,0 +1,73 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#ffffff" rx="8"/>
+  
+  <!-- Title -->
+  <text x="200" y="25" text-anchor="middle" font-family="Inter" font-size="16" font-weight="600" fill="#1d7363">
+    Design Science Research Methodology
+  </text>
+  
+  <!-- Problem Awareness -->
+  <circle cx="80" cy="80" r="25" fill="#1d7363" opacity="0.1" stroke="#1d7363" stroke-width="2"/>
+  <text x="80" y="75" text-anchor="middle" font-family="Inter" font-size="10" font-weight="600" fill="#1d7363">Problem</text>
+  <text x="80" y="87" text-anchor="middle" font-family="Inter" font-size="10" font-weight="600" fill="#1d7363">Awareness</text>
+  <text x="80" y="115" text-anchor="middle" font-family="Inter" font-size="8" fill="#666">Step 1</text>
+  
+  <!-- Suggestion -->
+  <circle cx="200" cy="80" r="25" fill="#2a9d8f" opacity="0.1" stroke="#2a9d8f" stroke-width="2"/>
+  <text x="200" y="85" text-anchor="middle" font-family="Inter" font-size="10" font-weight="600" fill="#2a9d8f">Suggestion</text>
+  <text x="200" y="115" text-anchor="middle" font-family="Inter" font-size="8" fill="#666">Step 2</text>
+  
+  <!-- Development -->
+  <circle cx="320" cy="80" r="25" fill="#e9c46a" opacity="0.1" stroke="#e9c46a" stroke-width="2"/>
+  <text x="320" y="85" text-anchor="middle" font-family="Inter" font-size="10" font-weight="600" fill="#d4860a">Development</text>
+  <text x="320" y="115" text-anchor="middle" font-family="Inter" font-size="8" fill="#666">Step 3</text>
+  
+  <!-- Evaluation -->
+  <circle cx="260" cy="180" r="25" fill="#f4a261" opacity="0.1" stroke="#f4a261" stroke-width="2"/>
+  <text x="260" y="185" text-anchor="middle" font-family="Inter" font-size="10" font-weight="600" fill="#e76f51">Evaluation</text>
+  <text x="260" y="215" text-anchor="middle" font-family="Inter" font-size="8" fill="#666">Step 4</text>
+  
+  <!-- Conclusion -->
+  <circle cx="140" cy="180" r="25" fill="#264653" opacity="0.1" stroke="#264653" stroke-width="2"/>
+  <text x="140" y="185" text-anchor="middle" font-family="Inter" font-size="10" font-weight="600" fill="#264653">Conclusion</text>
+  <text x="140" y="215" text-anchor="middle" font-family="Inter" font-size="8" fill="#666">Step 5</text>
+  
+  <!-- Arrows -->
+  <!-- Problem to Suggestion -->
+  <path d="M105 80 L175 80" stroke="#1d7363" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Suggestion to Development -->
+  <path d="M225 80 L295 80" stroke="#2a9d8f" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Development to Evaluation -->
+  <path d="M310 95 L270 165" stroke="#e9c46a" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Evaluation to Conclusion -->
+  <path d="M235 180 L165 180" stroke="#f4a261" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Iterative feedback loop -->
+  <path d="M140 155 Q100 130 120 95 Q140 80 175 80" stroke="#264653" stroke-width="2" stroke-dasharray="5,5" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Knowledge Base -->
+  <rect x="50" y="240" width="300" height="40" fill="#f8f9fa" stroke="#1d7363" stroke-width="1" rx="4"/>
+  <text x="200" y="255" text-anchor="middle" font-family="Inter" font-size="10" font-weight="600" fill="#1d7363">Knowledge Base</text>
+  <text x="200" y="270" text-anchor="middle" font-family="Inter" font-size="8" fill="#666">Existing Research & Contributions</text>
+  
+  <!-- Knowledge arrows -->
+  <path d="M140 205 L140 240" stroke="#666" stroke-width="1" stroke-dasharray="3,3" marker-end="url(#arrowhead-small)"/>
+  <path d="M200 105 L200 240" stroke="#666" stroke-width="1" stroke-dasharray="3,3" marker-end="url(#arrowhead-small)"/>
+  
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#333"/>
+    </marker>
+    <marker id="arrowhead-small" markerWidth="6" markerHeight="4" refX="5" refY="2" orient="auto">
+      <polygon points="0 0, 6 2, 0 4" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <!-- Legend -->
+  <text x="20" y="20" font-family="Inter" font-size="8" fill="#666">Iterative cycles with continuous evaluation</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="64" cy="64" r="64" fill="#2a9d8f"/>
+  
+  <!-- Face -->
+  <circle cx="64" cy="52" r="20" fill="#f4c2a1"/>
+  
+  <!-- Hair/Beard -->
+  <path d="M44 42c0-15 9-25 20-25s20 10 20 25c0 5-2 8-5 10l-15-2-15 2c-3-2-5-5-5-10z" fill="#696969"/>
+  <path d="M50 60c4 6 10 8 14 8s10-2 14-8c0 4-6 8-14 8s-14-4-14-8z" fill="#696969"/>
+  
+  <!-- Eyes -->
+  <circle cx="58" cy="48" r="2" fill="#2c3e50"/>
+  <circle cx="70" cy="48" r="2" fill="#2c3e50"/>
+  
+  <!-- Glasses -->
+  <circle cx="58" cy="48" r="6" stroke="#2c3e50" stroke-width="1.5" fill="none"/>
+  <circle cx="70" cy="48" r="6" stroke="#2c3e50" stroke-width="1.5" fill="none"/>
+  <path d="M64 48h0" stroke="#2c3e50" stroke-width="1.5"/>
+  
+  <!-- Smile -->
+  <path d="M58 56c2 3 4 3 6 3s4 0 6-3" stroke="#2c3e50" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  
+  <!-- Professional attire -->
+  <rect x="44" y="72" width="40" height="56" rx="8" fill="#2c3e50"/>
+  <rect x="48" y="76" width="32" height="48" rx="4" fill="#ffffff"/>
+  
+  <!-- Collar -->
+  <path d="M56 76l8 8 8-8" stroke="#2c3e50" stroke-width="2" fill="none"/>
+  
+  <!-- Tie -->
+  <rect x="62" y="84" width="4" height="20" fill="#2a9d8f"/>
+  
+  <!-- Academic elements -->
+  <circle cx="52" cy="100" r="2" fill="#2a9d8f" opacity="0.4"/>
+  <circle cx="76" cy="100" r="2" fill="#2a9d8f" opacity="0.4"/>
+</svg>
