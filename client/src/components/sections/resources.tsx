@@ -6,7 +6,7 @@ export default function Resources() {
       icon: FileText,
       title: "Research Paper",
       description: "Complete academic publication",
-      href: "#"
+      href: "https://sacla2025.ufs.ac.za/uploads/6aff1c14-b549-442f-a210-82aebe96062b/SACLA2025_Full_Booklet_Final_2025-07-29.pdf"
     },
     {
       icon: Presentation,
@@ -39,8 +39,8 @@ export default function Resources() {
               <a
                 key={index}
                 href={resource.href}
-                target={resource.title === "Presentation Slides" ? "_blank" : undefined}
-                rel={resource.title === "Presentation Slides" ? "noopener noreferrer" : undefined}
+                target={resource.title === "Presentation Slides" || resource.title === "Research Paper" ? "_blank" : undefined}
+                rel={resource.title === "Presentation Slides" || resource.title === "Research Paper" ? "noopener noreferrer" : undefined}
                 className="bg-white bg-opacity-20 hover:bg-opacity-30 transition-colors p-6 rounded-xl block backdrop-blur-sm"
               >
                 <Icon className="mx-auto text-3xl mb-3" size={48} />
